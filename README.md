@@ -11,7 +11,7 @@
 ##### 支持主动扫描
 ##### 支持通过邮件进行交易信号的通知。
 ##### 自带macd halftrend、 smart money concepts(聪明钱)、nmacd、sslchannel等实用指标
-
+##### 自带hhc macd_rsi  ma_nmacd_rsi等实用交易信号
 
 ## 环境要求
 
@@ -25,10 +25,8 @@ pip install -r requestment.txt
 ### 1.主要模块
 
 ##### 数据源使用Ashare封装，可更换其他数据源封装包。
-
-##### 其中Indicator模块为相
-
-##### Analysis模块为技术分析模块 对复杂的技术指标 ，ma、rsi等talib自带指标直接写在trading_signal
+##### Analysis模块为技术分析模块 
+##### 其中Indicator模块为相对复杂的技术指标 ，ma、rsi等talib自带指标直接写在trading_signal
 
 ##### trading_signals为交易信号，交易信号可以是单指标或者指标组合。
 
