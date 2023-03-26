@@ -54,6 +54,7 @@ pip install -r requestment.txt
 
 ##### 主动扫描请使用scan_signals.py 参照代码在scanner.scan_pairs中填上标的列表，交易信号和周期并运行
 
+##### 其中 is_hot 为 True时为买入信号，is_cold 为 False时为卖出信号，其他为信号相关数据， 都可自定义
 ## 如何贡献
 
 如果您发现了 Bug 或有任何改进建议，请在 Issues 中提出。
