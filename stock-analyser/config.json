@@ -1,0 +1,59 @@
+{
+    "pairlists": [
+        "sh000001",
+        "600519.XSHG"
+    ],
+    "signals":{
+        "svc":{
+             "enable": true,
+             "default_period": "1d",
+             "show_details": true
+        },
+        "ma_nmacd_rsi": {
+             "enable": true,
+             "default_period": "1d",
+             "show_details": true
+        },
+        "hhc": {
+             "enable": true,
+             "default_period": "1d",
+             "show_details": true
+
+        },
+         "sv":{
+             "enable": true,
+             "default_period": "60m",
+             "show_details": true
+        },
+        "mr": {
+            "enable": true,
+            "default_period": "60m",
+             "show_details": false
+        }
+    },
+    "scan": {
+        "mr": [
+            "1d"
+        ]
+    },
+
+    "notify":{
+        "email": {
+            "gmail": {
+                "enable": false,
+                "server": "smtp.gmail.com:587",
+                "username": "yourname@gmail.com",
+                "password": "your pass word",
+                "destination_emails":["yourname@xxx.com","yourname2@xxx.com"]
+            },
+            "mail163": {
+                "enable": true,
+                "server": "smtp.163.com",
+                "username": "yourname@163.com",
+                "password": "your pass word",
+                "destination_emails":["yourrname@xxx.com"]
+            }
+        }
+    }
+
+}

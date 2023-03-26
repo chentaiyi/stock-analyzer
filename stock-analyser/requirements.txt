@@ -1,0 +1,5 @@
+pandas~=1.4.2
+structlog~=22.1.0
+numpy~=1.22.0
+requests~=2.25.1
+tenacity~=8.1.0
