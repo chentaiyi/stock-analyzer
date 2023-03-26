@@ -46,7 +46,13 @@ pip install -r requestment.txt
 包括发件人邮箱、SMTP 服务器地址、SMTP 端口号、发件人邮箱用户名和密码等。
 其中发送邮箱的密码通常为应用专用密码，通常需进入邮箱服务器申请
 
-##### 运行 main.py 
+### 3.运行
+
+##### 如要单进程实时监控交易信号并邮件通知，运行main.py
+
+##### 如要多进程实时监控交易信号并邮件通知，运行multi_mode_main.py
+
+##### 主动扫描请使用scan_signals.py 参照代码在scanner.scan_pairs中填上标的列表，交易信号和周期并运行
 
 ## 如何贡献
 
@@ -56,6 +62,8 @@ pip install -r requestment.txt
 ## 作者
 
 作者：chentaiyi
+微信：501745
 邮箱：501745@qq.com
+
 
 
